@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "graphql-schema-decorator": "^0.8.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "graphql",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "graphql_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
