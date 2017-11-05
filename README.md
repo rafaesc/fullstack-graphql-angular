@@ -58,13 +58,11 @@ INFO - Server started on port 3000.
       ├── webapp (example.com)
       │   ├── public
       │   ├── src
-      │   │   ├── app
-      │   │   │   ├──@core
-      │   │   │   ├──@shared
-      │   │   │   ├──pages
-      │   │   │   └──app.module.ts
-      │   │   │
-      │   │   └── index.js
+      │   │   └── app
+      │   │       ├──@core
+      │   │       ├──@shared
+      │   │       ├──pages
+      │   │       └──app.module.ts
       │   │
       │   └── package.json
       │
@@ -74,11 +72,11 @@ INFO - Server started on port 3000.
 ## 📘 Guides
 ### API
 - Adding new Module (Eg: Users):
-  - Copy `/api/src/models/thought.js` to `/api/src/models/user.js` and modify the file for table name and respective fields
-  - Add an entry to the `models` object in `/api/src/models/index.js`
-  - Copy `/api/src/schema/thoughts` to `/api/src/schema/users` and modify `type.js`, `resolvers.js` and `fields/query.js` and `fields/mutations.js`
-  - Import `/api/src/schema/users/fields/query.js` in `/api/src/schema/query.js`
-  - Import `/api/src/schema/users/fields/mutations.js` in `/api/src/schema/mutations.js`
+  - Copy `/api/src/models/thought.ts` to `/api/src/models/user.ts` and modify the file for table name and respective fields
+  - Add an entry to the `models` object in `/api/src/models/index.ts`
+  - Copy `/api/src/schema/thoughts` to `/api/src/schema/users` and modify `type.ts`, `resolvers.ts` and `fields/query.ts` and `fields/mutations.ts`
+  - Import `/api/src/schema/users/fields/query.ts` in `/api/src/schema/query.ts`
+  - Import `/api/src/schema/users/fields/mutations.ts` in `/api/src/schema/mutations.ts`
 
 ### Webapp
 - Adding new Module (Eg: Users):
