@@ -41,7 +41,7 @@ INFO - Server started on port 3000.
 ```
 
 ## 📸 Screenshots
-![screenshot](http://rafaelescala.com/assets/fullstack.gif?v=0.1)
+![screenshot](http://rafaelescala.com/assets/fullstack.gif?v=0.2)
 
 ## 🏗 Core Structure
     fullstack-graphql-angular
