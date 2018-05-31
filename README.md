@@ -84,9 +84,9 @@ INFO - Server started on port 3000.
   - Create folder `users` under `/webapp/src/app/pages/`
   - Create your Module and Component under `/webapp/src/app/pages/users`
   - Add `users.action.ts` where all your Redux Action Types and Actions will reside (refer `/webapp/src/app/@shared/store/actions/users.action.ts`)
-  - Add `users.reducer.ts` where all your respective Reducers will recide (refer `/webapp/src/@shared/store/recuders/users.reducer.ts`)
+  - Add `users.reducer.ts` where all your respective Reducers will recide (refer `/webapp/src/@shared/store/reducers/users.reducer.ts`)
   - Add `users.service.ts` where all your respective Services will recide (refer `/webapp/src/@shared/services/users.service.ts`)
-  - Add `users.effect.ts` where all your respective Effects will recide (refer `/webapp/src/@shared/store/recuders/users.effect.ts`)
+  - Add `users.effect.ts` where all your respective Effects will recide (refer `/webapp/src/@shared/store/reducers/users.effect.ts`)
   - Import the module state in `/webapp/src/@shared/store/` to make it avaliable to the app
   - Import the Users Effect in `/webapp/src/@core/core.module.ts`
   - Encapsulate all your User related code in `/webapp/src/app/pages/users`
